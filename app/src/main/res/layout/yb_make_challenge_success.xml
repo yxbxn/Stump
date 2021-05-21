@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="482dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:gravity="center"
+            android:text="챌린지 생성이 \n완료되었습니다!"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            tools:srcCompat="@drawable/challenge_success" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/placeadd_btn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/gradation"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="홈 화면으로 돌아가기"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
